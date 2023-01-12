@@ -39,7 +39,7 @@ This will test:
 
 Here is the URL for the data:
 ```
-https://us-central1-codesmith-curriculum-server.cloudfunctions.net/app/images
+http://image-server-prod.eba-jqccpzay.us-west-2.elasticbeanstalk.com/images
 ```
 
 #### Do's And Don'ts
