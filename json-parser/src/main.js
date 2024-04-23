@@ -11,6 +11,11 @@
  */
 
 function JSONParser(string) {
-  // CODE HERE
-	
+return JSON.parse(string);
 }
+
+console.log(JSONParser("5"))         // -> 5
+console.log(JSONParser('"hello"'))     // -> 'hello'
+console.log(JSONParser( "[]" ))        //-> []
+console.log(JSONParser(  "{}"  ))          //-> {}
+console.log(JSONParser( '["hello"]' )) // > ['hello']
